@@ -1,0 +1,54 @@
+.grid {
+  margin: 50px 0px 0px 0px;
+}
+
+.btn {
+  margin: 40px 20px 0px 20px;
+}
+.yo {
+  background-color: rgb(240, 208, 169);
+}
+.container {
+  margin: 20px;
+}
+
+.key {
+  border: 1px solid #79d9ce;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.wall {
+  transition: background-color 0.08s ease-in-out;
+  background-color: rgb(12, 53, 71);
+  border-color: #1cd4b5;
+}
+
+.visited {
+  transition: background-color 0.08s ease-in-out;
+  background-color: #1cd4b5;
+  border-color: #1cd4b5;
+}
+
+.searching {
+  transition: background-color 0.08s ease-in-out;
+  background-color: #4932cc;
+  border-color: #e89440;
+}
+
+.success {
+  transition: background-color 0.08s ease-in-out;
+  background-color: #ffee31;
+  border-color: #ffee31;
+}
+
+.start {
+  background-color: green;
+  border-color: green;
+}
+
+.end {
+  background-color: red;
+  border-color: red;
+}
